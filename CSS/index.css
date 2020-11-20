@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.thumbnail{
+    margin: 0;
+    padding: 0;
+    max-height: 270px;
+    max-width: 480px;
+}
+.centered{
+    text-align: center;
+}
+.container img{
+    max-width: 100%;
+    height: 600px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500;
+}
+
+h1{
+    font-family: sans-serif;
+    margin-top: 20px !important;
+    color: white;
+    text-decoration: underline greenyellow;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px !important;
+}
+h2{
+    font-family: sans-serif;
+    margin-top: 20px !important;
+    color: white;
+    text-decoration: underline yellowgreen;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 40%;
+    font-size: 50px !important;
+}
+
+.content{
+    margin-left: 5vw;
+}
+.content img{
+    margin-top: 5vw !important;
+    padding: 10px;
+}
+
+.ernakulam-centered{
+    margin-top: 2vw;
+    margin-left: 5vw;
+} 
+
+.carousel-caption p{
+    font-weight: bold !important;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../images/images.jpg) !important;
+    background-size: auto;
+}
+.carousel-item{
+    margin-bottom: 2vw;
+}
+.round-border{
+    margin-top: 2vw;
+    border-radius: 10px;
+    border: 2px solid #fff000;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* window width 576-771px */
+
+@media screen and (min-width: 576px) {
+    .centered{
+        position: center;
+        top: 55%;
+        left: 50%;
+        transform: translate(-30%, -60%);
+        font-weight: 400;
+        font-size: 15px;
+    }
+    img.thumbnail{
+        position: static;
+        height: auto;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        transform: scale(1.1);
+    }
+    
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+    
+  }
+  
+  /* window width 771-1169px */
+  
+  @media screen and (min-width: 771px) {
+    .centered{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-40%, -40%);
+        font-weight: 400;
+        font-size: 25px;
+    }
+    img.thumbnail{
+        position: static;
+        height: auto;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        opacity: 0.3;
+        transition:0.2s ease-in-out;
+    }
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+    
+  }
+  
+  /* window width above 1170px */
+  @media screen and (min-width: 1170px) {
+    .centered{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 400;
+        font-size: 35px;
+    }
+    img.thumbnail{
+        position: relative;
+        height: auto;
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        transform: scale(1.1);
+    }
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+  }
+  
+  /* window width below 576px for mobile devices */
+  @media screen and (max-width: 575px) {
+  .centered{
+        position: absolute;
+        top: 55%;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        font-weight: 400;
+        font-size: 35px;
+    }
+    img.thumbnail{
+        position: static;
+        height: auto;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    a.thumbnail:hover img.thumbnail{
+        transform: scale(1.1);
+    }
+    
+    .container{
+        position: relative !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: 20px;
+    }
+  }
+  .centered{
+    color: white !important;
+  }
+  .btn30{
+      margin-left: 45%;
+      margin-bottom: 20px;
+      background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+ 

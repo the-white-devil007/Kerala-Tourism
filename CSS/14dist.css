@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container img{
+    max-width: 100%;
+    height: 600px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500;
+}
+h1{
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: white;
+    text-decoration: underline greenyellow;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.content{
+    color: white !important;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.card{
+    background: transparent;
+    text-align: center
+}
+.card-deck{
+    margin: 2vw;
+}
+
+h2{
+    text-align: center !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    border-bottom: 5px solid greenyellow;
+}
+a.stay{
+    text-align: center;
+    color: white;
+}
+a.stay:hover{
+    color: yellow;
+}
+
+.ernakulam-centered{
+    margin-top: 2vw;
+    margin-left: 2vw;
+} 
+
+.carousel-caption p{
+    font-weight: bold !important;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../images/images.jpg) !important;
+    background-size: auto;
+}
